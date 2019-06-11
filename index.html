@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>
+            Registration Page
+        </title>
+        <style type="text/css">
+            body{				
+				margin: 50;
+				font-family: 'Tahoma';
+				font-size: 10.5pt;
+			}
+			
+			a{
+				text-decoration: none;
+				color: #8e8e8e;
+			}
+			
+			a:hover{
+				text-decoration: underline;
+				color: #000000;
+			}
+			
+			
+			
+			.regbutton{
+				color: #ffffff;
+				margin-right: 5px;
+				background-color: #4286f4;
+				padding: 6px 12px 6px 12px;
+				border: 0px;
+				border-radius: 3px;
+			}
+			
+			.regbutton:hover{
+				color: #ffffff;
+				background-color: #669ef9;
+				padding: 6px 12px 6px 12px;
+				border: 0px;
+				border-radius: 3px;
+			}
+			
+			.regtext{
+				width: 250px;
+				padding: 10px;
+				border: 1px solid #cccccc;
+				border-radius: 3px;
+			}
+        </style>
+    </head>
+    <body>
+            <div class="regbox">
+		
+                    <center>
+                
+                    <h1>Register</h1>
+                    <p>Please register to continue...</p>
+                    <form method="post" name="LoginForm">
+                        <input name="FirstName" class="regtext" type="text" placeholder="First Name" /><br /><br/>
+                        <input name="LastName" class="regtext" type="text" placeholder="Last Name" /><br /><br/>
+                        Gender:  <select>
+                                <option value="Select">Select...</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Transgender">Transgender</option>
+                        </select><br /><br />
+                        <input name="Username" class="regtext" type="text" placeholder="Username" /><br /><br/>
+                        <input name="Password" class="regtext" type="password" placeholder="Password" /><br /><br/>
+                        <input name="ConfirmPassword" class="regtext" type="password" placeholder="Confirm Password" /><br /><br/>
+                        <input type="checkbox" value="Remember me">I accept Terms & Conditions</input><br /><br />
+                        <input class="regbutton" type="submit" value="Register" />
+                        <input class="regbutton" type="reset" value="Reset" />
+                    </form>
+                    
+                    </center>
+                    
+             </div>
+    </body>
+</html>
